@@ -1,0 +1,54 @@
+html, body, #root {
+    height: 100vh;
+}
+
+.main {
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.display {
+    border: black solid;
+    width: 50%;
+    /* padding: 10 10 10 10; */
+    margin-bottom: 1rem;
+    text-align: right;
+}
+
+.button_pad {
+    border: black solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button_wrapper {
+    width: 20%;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: black;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+    font-size: xx-large;
+    border-radius: 4rem;
+    border-width: 0;
+}
+
+.equals {
+    width: 40%;
+}
+.equals button {
+    background-color: red;
+    width: 8rem;
+}
